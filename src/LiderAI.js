@@ -365,9 +365,14 @@ const LiderAI = () => {
                 <button className="bg-gradient-to-r from-blue-500 to-purple-600 py-4 px-10 rounded-xl font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center text-white">
                   Начать бесплатно <ChevronRight className="ml-2" size={20} />
                 </button>
-                <button className="bg-white/5 backdrop-blur-sm border border-white/10 py-4 px-10 rounded-xl font-semibold text-lg hover:bg-white/10 transition-all duration-300 text-blue-100">
+                <a 
+                  href="https://t.me/pavel_expert" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="bg-white/5 backdrop-blur-sm border border-white/10 py-4 px-10 rounded-xl font-semibold text-lg hover:bg-white/10 transition-all duration-300 text-blue-100 inline-flex items-center justify-center"
+                >
                   Написать в Telegram
-                </button>
+                </a>
               </div>
             </div>
           </div>
