@@ -164,9 +164,14 @@ const LiderAI = () => {
               </div>
               <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">LeadAI</h1>
             </div>
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 py-2 px-4 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300">
+            <a 
+              href="https://t.me/try_leadai_bot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 py-2 px-4 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
+            >
               Начать бесплатно
-            </button>
+            </a>
           </div>
         </nav>
         
@@ -183,9 +188,14 @@ const LiderAI = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-20 lg:mb-0">
-                <button className="bg-gradient-to-r from-blue-500 to-purple-600 py-3 px-8 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center">
+                <a 
+                  href="https://t.me/try_leadai_bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-blue-500 to-purple-600 py-3 px-8 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center"
+                >
                   Начать бесплатно <ChevronRight className="ml-2" size={20} />
-                </button>
+                </a>
                 <button className="bg-white bg-opacity-10 backdrop-blur-md py-3 px-8 rounded-lg font-semibold hover:bg-opacity-20 transition-all duration-300 border border-white border-opacity-20">
                   Узнать больше
                 </button>
@@ -362,9 +372,14 @@ const LiderAI = () => {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <button className="bg-gradient-to-r from-blue-500 to-purple-600 py-4 px-10 rounded-xl font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center text-white">
+                <a 
+                  href="https://t.me/try_leadai_bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-blue-500 to-purple-600 py-4 px-10 rounded-xl font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center text-white"
+                >
                   Начать бесплатно <ChevronRight className="ml-2" size={20} />
-                </button>
+                </a>
                 <a 
                   href="https://t.me/pavel_expert" 
                   target="_blank" 
