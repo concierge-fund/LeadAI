@@ -196,9 +196,14 @@ const LiderAI = () => {
                 >
                   Начать бесплатно <ChevronRight className="ml-2" size={20} />
                 </a>
-                <button className="bg-white bg-opacity-10 backdrop-blur-md py-3 px-8 rounded-lg font-semibold hover:bg-opacity-20 transition-all duration-300 border border-white border-opacity-20">
+                <a 
+                  href="https://t.me/try_leadai_bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white bg-opacity-10 backdrop-blur-md py-3 px-8 rounded-lg font-semibold hover:bg-opacity-20 transition-all duration-300 border border-white border-opacity-20"
+                >
                   Узнать больше
-                </button>
+                </a>
               </div>
             </div>
             
