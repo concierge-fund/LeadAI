@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, MessageSquare, BarChart2, Shield, Clock, Check } from 'lucide-react';
 
+// Telegram links check - v1.0.1
 const LiderAI = () => {
   const [scrollY, setScrollY] = useState(0);
   const [animatedSections, setAnimatedSections] = useState({
