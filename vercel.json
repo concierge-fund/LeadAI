@@ -8,7 +8,8 @@
     { "src": "/(.*)", "dest": "/index.html" }
   ],
   "github": {
-    "silent": false
+    "silent": false,
+    "autoAlias": true
   },
   "buildCommand": "npm run build",
   "outputDirectory": "build"
