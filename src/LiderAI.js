@@ -399,16 +399,23 @@ const LiderAI = () => {
           </div>
           
           <div className="mt-16 text-center text-blue-50 text-opacity-60 text-sm">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
+              <a 
+                href="/privacy" 
+                className="text-blue-200 text-opacity-30 hover:text-opacity-60 text-xs transition-colors duration-300"
+              >
+                Политика конфиденциальности
+              </a>
+              <span className="hidden sm:inline text-blue-200 text-opacity-30 text-xs">•</span>
+              <a 
+                href="mailto:notbased@yandex.com" 
+                className="text-blue-200 text-opacity-30 hover:text-opacity-60 text-xs transition-colors duration-300"
+              >
+                notbased@yandex.com
+              </a>
+            </div>
           </div>
         </section>
-        
-        {/* Fixed chat button */}
-        <div className="fixed bottom-8 right-8 z-50 group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition-all duration-500"></div>
-          <button className="relative bg-blue-900 h-14 w-14 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300">
-            <MessageSquare className="text-white" size={24} />
-          </button>
-        </div>
       </div>
     </div>
   );

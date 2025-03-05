@@ -1,11 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LiderAI from './LiderAI';
+import Privacy from './Privacy';
 
 function App() {
   return (
-    <div className="App">
-      <LiderAI />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<LiderAI />} />
+          <Route path="/privacy" element={<Privacy />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
