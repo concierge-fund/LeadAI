@@ -2,11 +2,6 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "routes": [
-    { "src": "/privacy", "dest": "/index.html" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ],
   "github": {
     "silent": false,
     "autoAlias": true
