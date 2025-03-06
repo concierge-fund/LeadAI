@@ -387,7 +387,7 @@ const LiderAI = () => {
                   Начать бесплатно <ChevronRight className="ml-2" size={20} />
                 </a>
                 <a 
-                  href="https://t.me/pavel_expert" 
+                  href="https://t.me/moo_to" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-white/5 backdrop-blur-sm border border-white/10 py-4 px-10 rounded-xl font-semibold text-lg hover:bg-white/10 transition-all duration-300 text-blue-100 inline-flex items-center justify-center"
