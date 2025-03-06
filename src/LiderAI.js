@@ -236,7 +236,7 @@ const LiderAI = () => {
                       Поставь задачу команде маркетинга по разработке стратегии на Q2
                     </div>
                     
-                    <div className="bg-gray-100 rounded-lg p-3 max-w-xs mb-3 text-sm text-gray-800 shadow-sm">
+                    <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg p-3 max-w-xs mb-3 text-sm text-gray-800 shadow-md border border-blue-100">
                       <div className="animate-pulse h-4 w-12 bg-blue-200 rounded mb-2"></div>
                       <p>Задача создана: "Разработка маркетинговой стратегии на Q2"</p>
                       <p className="mt-2">Назначена на: Команда маркетинга</p>
@@ -251,7 +251,7 @@ const LiderAI = () => {
                       Дай совет по повышению продуктивности команды
                     </div>
                     
-                    <div className="bg-gray-100 rounded-lg p-3 max-w-xs mb-3 text-sm text-gray-800 shadow-sm">
+                    <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-lg p-3 max-w-xs mb-3 text-sm text-gray-800 shadow-md border border-blue-100">
                       <div className="animate-pulse h-4 w-12 bg-blue-200 rounded mb-2"></div>
                       <p>Рекомендации для повышения продуктивности:</p>
                       <ul className="list-disc pl-4 mt-1">
