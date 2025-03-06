@@ -216,12 +216,12 @@ const LiderAI = () => {
             {/* Animated bot mockup */}
             <div className="relative w-[322px] h-[400px] lg:w-[368px] lg:h-[480px] lg:mr-6">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 blur-2xl opacity-30 animate-pulse"></div>
-              <div className="absolute inset-4 bg-blue-900 rounded-xl border border-blue-500 border-opacity-20 backdrop-blur-md overflow-hidden">
-                <div className="w-full h-10 bg-blue-800 flex items-center px-4">
+              <div className="absolute inset-4 bg-white/95 rounded-xl border border-blue-500/20 backdrop-blur-md overflow-hidden shadow-xl">
+                <div className="w-full h-10 bg-gradient-to-r from-blue-500 to-purple-600 flex items-center px-4">
                   <div className="h-6 w-6 relative mr-2">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 rounded-full opacity-70 blur"></div>
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-4 h-4 border-t-2 border-l-2 border-r-2 border-blue-400 rounded-full animate-spin"></div>
+                      <div className="w-4 h-4 border-t-2 border-l-2 border-r-2 border-white/60 rounded-full animate-spin"></div>
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
@@ -232,27 +232,27 @@ const LiderAI = () => {
                 
                 <div className="p-4 h-full overflow-y-auto flex flex-col">
                   <div className="space-y-4 min-h-min pb-8">
-                    <div className="bg-blue-800 rounded-lg p-3 max-w-xs mb-3 ml-auto text-sm">
+                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg p-3 max-w-xs mb-3 ml-auto text-sm text-white shadow-md">
                       Поставь задачу команде маркетинга по разработке стратегии на Q2
                     </div>
                     
-                    <div className="bg-blue-700 rounded-lg p-3 max-w-xs mb-3 text-sm">
-                      <div className="animate-pulse h-4 w-12 bg-blue-600 rounded mb-2"></div>
+                    <div className="bg-gray-100 rounded-lg p-3 max-w-xs mb-3 text-sm text-gray-800 shadow-sm">
+                      <div className="animate-pulse h-4 w-12 bg-blue-200 rounded mb-2"></div>
                       <p>Задача создана: "Разработка маркетинговой стратегии на Q2"</p>
                       <p className="mt-2">Назначена на: Команда маркетинга</p>
                       <p className="mt-2">Дедлайн: 15 июня</p>
                       <div className="mt-3 flex">
-                        <button className="bg-blue-600 px-2 py-1 rounded text-xs">Изменить</button>
-                        <button className="bg-transparent border border-blue-600 px-2 py-1 rounded text-xs ml-2">Детали</button>
+                        <button className="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded text-xs transition-colors">Изменить</button>
+                        <button className="border border-blue-500 text-blue-500 hover:bg-blue-50 px-2 py-1 rounded text-xs ml-2 transition-colors">Детали</button>
                       </div>
                     </div>
                     
-                    <div className="bg-blue-800 rounded-lg p-3 max-w-xs mb-3 ml-auto text-sm">
+                    <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg p-3 max-w-xs mb-3 ml-auto text-sm text-white shadow-md">
                       Дай совет по повышению продуктивности команды
                     </div>
                     
-                    <div className="bg-blue-700 rounded-lg p-3 max-w-xs mb-3 text-sm">
-                      <div className="animate-pulse h-4 w-12 bg-blue-600 rounded mb-2"></div>
+                    <div className="bg-gray-100 rounded-lg p-3 max-w-xs mb-3 text-sm text-gray-800 shadow-sm">
+                      <div className="animate-pulse h-4 w-12 bg-blue-200 rounded mb-2"></div>
                       <p>Рекомендации для повышения продуктивности:</p>
                       <ul className="list-disc pl-4 mt-1">
                         <li>Регулярные короткие митинги</li>
