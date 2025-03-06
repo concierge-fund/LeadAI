@@ -1,6 +1,6 @@
 {
   "short_name": "LeadAI",
-  "name": "LeadAI - управленческие решения на автопилоте",
+  "name": "LeadAI",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1E40AF",
-  "background_color": "#1E3A8A"
+  "theme_color": "#0066FF",
+  "background_color": "#003399"
 }

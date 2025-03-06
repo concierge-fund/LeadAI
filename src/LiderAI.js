@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, MessageSquare, BarChart2, Shield, Clock, Check } from 'lucide-react';
+import { useYandexMetrika } from './hooks/useYandexMetrika';
 
 // Telegram links check - v1.0.1
 const LiderAI = () => {
+  const { reachGoal } = useYandexMetrika();
   const [scrollY, setScrollY] = useState(0);
   const [animatedSections, setAnimatedSections] = useState({
     hero: false,
@@ -169,6 +171,7 @@ const LiderAI = () => {
               href="https://t.me/try_leadai_bot"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => reachGoal('click_start_free_nav')}
               className="bg-gradient-to-r from-blue-500 to-purple-600 py-2 px-4 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               Начать бесплатно
@@ -193,6 +196,7 @@ const LiderAI = () => {
                   href="https://t.me/try_leadai_bot"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => reachGoal('click_start_free')}
                   className="bg-gradient-to-r from-blue-500 to-purple-600 py-3 px-8 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center"
                 >
                   Начать бесплатно <ChevronRight className="ml-2" size={20} />
@@ -201,6 +205,7 @@ const LiderAI = () => {
                   href="https://dzen.ru/leadai"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => reachGoal('click_learn_more')}
                   className="bg-white bg-opacity-10 backdrop-blur-md py-3 px-8 rounded-lg font-semibold hover:bg-opacity-20 transition-all duration-300 border border-white border-opacity-20"
                 >
                   Узнать больше
@@ -382,6 +387,7 @@ const LiderAI = () => {
                   href="https://t.me/try_leadai_bot"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => reachGoal('click_start_free_bottom')}
                   className="bg-gradient-to-r from-blue-500 to-purple-600 py-4 px-10 rounded-xl font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center text-white"
                 >
                   Начать бесплатно <ChevronRight className="ml-2" size={20} />
@@ -389,7 +395,8 @@ const LiderAI = () => {
                 <a 
                   href="https://t.me/moo_to" 
                   target="_blank" 
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
+                  onClick={() => reachGoal('click_telegram')}
                   className="bg-white/5 backdrop-blur-sm border border-white/10 py-4 px-10 rounded-xl font-semibold text-lg hover:bg-white/10 transition-all duration-300 text-blue-100 inline-flex items-center justify-center"
                 >
                   Написать в Telegram
